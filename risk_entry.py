@@ -64,16 +64,4 @@ if st.button("✅ Check My Risk"):
         df_combined.to_csv(file_path, index=False)
         st.success("✔️ Your data has been recorded!")
 
-"""Placeholder for later integration with Karen's model"""
-
-
-
-"""risk = predict_diabetes([age, glucose, blood_pressure, bmi, insulin, pregnancies])"""
-
-
-
-"""st.write(f"Predicted Risk: {risk}")
-
-
-"""
 
